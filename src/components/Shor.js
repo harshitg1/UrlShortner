@@ -23,11 +23,11 @@ const Shor = () => {
             </div>
             <div className="flex flex-col justify-center items-center pt-10 gap-8 w-full">
               <div className="pb-10 w-full">
-              <Inputfile setUrl={setUrl}/>
+                <Inputfile setUrl={setUrl} />
               </div>
-            
+
               <Linkresult inputValue={inputValue} />
-              <Scan/>
+              <Scan />
             </div>
           </section>
         </div>

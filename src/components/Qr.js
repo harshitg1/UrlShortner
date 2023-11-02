@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import QRcode from "react-qr-code";
 
-const Scan=() => {
+const Scan = () => {
   const [data, setData] = useState("");
 
   return (
